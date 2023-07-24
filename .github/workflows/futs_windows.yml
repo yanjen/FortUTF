@@ -18,5 +18,4 @@ jobs:
             choco install -y make
             cmake -G "Unix Makefiles" -Bbuild -DBUILD_TESTS=ON
             cmake --build build
-            ./build/FortUTF_Tests.exe
-
+            .\build\FortUTF_Tests.exe
