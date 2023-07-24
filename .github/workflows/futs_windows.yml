@@ -20,4 +20,5 @@ jobs:
             cmake --build build
       - name: Run Tests
         run: |
+             ls build
              Invoke-Expression -Command "D:\a\FortUTF\FortUTF\build\FortUTF_Tests.exe"
