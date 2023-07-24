@@ -24,6 +24,6 @@ jobs:
           limit-access-to-actor: true
       - name: Run Tests
         run: |
-             ls -la build
-             chmod +x FortUTF_Tests.exe
+             cd build
+             ls
              .\FortUTF_Tests.exe
