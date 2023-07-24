@@ -18,10 +18,6 @@ jobs:
             choco install -y make
             cmake -G "Unix Makefiles" -Bbuild -DBUILD_TESTS=ON
             cmake --build build
-      - name: Debug over SSH (tmate)
-        uses: mxschmitt/action-tmate@v3.5
-        with:
-          limit-access-to-actor: true
       - name: Run Tests
         run: |
              cd build
