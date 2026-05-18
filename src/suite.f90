@@ -115,7 +115,7 @@ MODULE FUTF_SUITE
             IF(FUTF_EXIT_CODE == 0) THEN
                 STOP
             ELSE
-                ERROR STOP FUTF_EXIT_CODE
+                ERROR STOP
             END IF
         END IF
     END SUBROUTINE
