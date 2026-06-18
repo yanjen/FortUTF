@@ -1,3 +1,8 @@
+# [v0.3.1](https://github.com/artemis-beta/FortUTF/releases/tag/0.2.0-alpha) - 2026-06-18
+- First full release.
+- Fix by @yanjen adds explicit specification of public and private statements.
+- Fix by @yanjen to address issue relating to Fortran 2008 where the standard states that stop codes should be a constant expression.
+
 # [v0.3.0-alpha](https://github.com/artemis-beta/FortUTF/releases/tag/0.2.0-alpha) - 2025-11-09
 
 - Modernised F90 to use `END IF` and `END DO`.
