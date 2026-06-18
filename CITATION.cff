@@ -24,6 +24,6 @@ keywords:
   - unit test
   - software testing
 license: AGPL-3.0-or-later
-commit: 13f0ee11bc37d2e89bb1c1d569aed7aa4e9880c1
-version: 0.3.0-alpha
-date-released: '2025-11-09'
+commit: e7d5db7d05dc4495163c271c7ba09c6b498a3073
+version: 0.3.1
+date-released: '2026-06-18'
